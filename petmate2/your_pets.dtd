@@ -1,0 +1,13 @@
+<!ELEMENT pets (pet)*>
+<!ELEMENT pet (pet_id,pet_name,pet_type,breed,age,weight,gender,pet_pic,extension,posted_on,updated_on)>
+<!ELEMENT pet_id (#PCDATA)>
+<!ELEMENT pet_name (#PCDATA)>
+<!ELEMENT pet_type (#PCDATA)>
+<!ELEMENT breed (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT pet_pic (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT posted_on (#PCDATA)>
+<!ELEMENT updated_on (#PCDATA)>
